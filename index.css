@@ -6,18 +6,21 @@ html {
     --color-input: #f1eeee;
     --color-button-facebook: #0095f6;
     --border: 1px solid #d6d4d4;
-    --color-background-linha-divisao: #8e8e8e; 
-    --color-text-facebook: #385185;    
-    
+    --color-background-linha-divisao: #8e8e8e;
+    --color-text-facebook: #385185;
+
 }
 
 body {
     font-family: var(--font-family-global);
-    display: flex;
-    justify-content: center;
     align-items: center;
     height: 500px;
     background-color: #fafafa;
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
 
 .container {
@@ -26,7 +29,6 @@ body {
     padding: 20px;
     text-align: center;
     box-shadow: var(--box-showdown-boder-container);
-    border-radius: 5px;
     width: var(--width-container);
 }
 
@@ -44,7 +46,7 @@ body {
 }
 
 .login button {
-    width: 99%;
+    width: 96%;
     padding: 10px;
     background-color: var(--color-button-facebook);
     color: white;
@@ -67,6 +69,8 @@ body {
     content: '';
     flex: 1;
     border-top: 1px solid #d6d4d4;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -76,8 +80,8 @@ body {
     display: block;
 }
 
-.facebook  {
-    font-weight: bold;    
+.facebook {
+    font-weight: bold;
     font-size: 14px;
 
     margin-top: 30px;
@@ -86,14 +90,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .facebook a {
     margin: 8px;
 }
 
-.esqueceu-senha {       
+.esqueceu-senha {
     font-size: 11.5px;
 }
 
@@ -103,9 +106,9 @@ body {
     padding: 20px;
     text-align: center;
     box-shadow: var(--box-showdown-boder-container);
-    border-radius: 5px;
     width: var(--width-container);
     margin: 10px 0;
+    font-size: 14px;
 }
 
 .registre-se p {
@@ -120,4 +123,42 @@ body {
     margin-bottom: 0;
     margin-left: 2px;
     display: inline;
+}
+
+.logos-google-microsoft {
+    background-color: #fafafa;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.logo-alinhamento img {
+    display: inline;
+    justify-content: center;
+    margin: 2px;
+    margin-bottom: 20px;
+}
+
+.logo-alinhamento img#lg-microsoft {
+    width: 110px;
+}
+
+.logo-alinhamento img#lg-google {
+    width: 130px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.rodape-1 p {
+    color: #8e8e8e;
+    font-size: 13px;
+}
+.rodape-2 {
+    color: #8e8e8e;
+    font-size: 13px;
 }
