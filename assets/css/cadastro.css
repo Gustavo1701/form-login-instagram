@@ -14,31 +14,39 @@ html {
 
 body {
     font-family: var(--font-family-global);
-    display: flex;
-    justify-content: center;
     align-items: center;
-    height: 600px;
+    width: 100vw;
+    height: 100vh;
     background-color: #fafafa;
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+}
+
+.box-form {
+    align-self: center;
+}
+
+.form {    
     background-color: #fff;
-    border: 1px solid #d6d4d4;
+    border: var(--border);
     padding: 20px;
     text-align: center;
     box-shadow: var(--box-showdown-boder-container);
-    border-radius: 5px;
     width: var(--width-container);
-    margin-top: 80px;
-    
 }
+
 
 .logo {
     width: 180px;
     
 }
 
-.container h1 {
+.form h1 {
     font-size: 12px;
     color: #8e8e8e;
     align-items: center;
@@ -128,11 +136,53 @@ body {
 
 .iniciar-sessao a{
     text-decoration: none;
-    /* font-weight: bold; */
     color: var(--color-button-facebook);
     padding-top: 0;
     margin-top: 0px;
     margin-bottom: 0;
     margin-left: 2px;
+}
+
+
+.logos-google-microsoft {
+    background-color: #fafafa; 
+    text-align: center; 
+    font-size: 14px;
+}
+
+.logo-alinhamento img {
     display: inline;
+    justify-content: center;
+    margin: 2px;
+    margin-bottom: 20px;
+}
+
+.logo-alinhamento img#lg-microsoft {
+    width: 110px;
+}
+
+.logo-alinhamento img#lg-google {
+    width: 130px;
+}
+
+footer {
+    align-self: center;
+}
+
+.rodape {
+    margin: 50px;
+}
+
+.rodape a{    
+    color: #8e8e8e;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 7px;
+}
+
+.rodape-1, .rodape-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
