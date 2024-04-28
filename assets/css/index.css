@@ -27,7 +27,7 @@ body {
 }
 
 .esquerdo {
-    background-image: url(assets/img/cel-iphone.png);
+    background-image: url(../img/cel-iphone.png);
     height: 581.15px;
     background-size: 468.32px 634.15px;
     align-self: center;
